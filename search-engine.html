@@ -1,0 +1,162 @@
+ <!DOCTYPE html>
+
+<script src= "https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<!-- Load React DOM-->
+<script src= "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+
+<!-- Load Babel Compiler -->
+<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
+<body style="color: lightslategray;align-items: center;text-align: center;font-size: x-large;font-family: Verdana, Geneva, Tahoma, sans-serif;">
+  <title>Geolocation</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <script type="module" src="./index.js"></script>
+  <rssapp-imageboard id="tmbOSe54pm1LnUqG"></rssapp-imageboard><script src="https://widget.rss.app/v1/imageboard.js" rext ="text/javascript"async></script>
+</head>
+<body>
+  <div id="map"></div>
+
+  <!-- 
+    The `defer` attribute causes the callback to execute after the full HTML
+    document has been parsed. For non-blocking uses, avoiding race conditions,
+    and consistent behavior across browsers, consider loading using Promises
+    with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+    -->
+  <script></script> 
+
+<!--
+A container to display react DOM elements
+-->
+Today is:
+<div id="comp1" style="align-items: center;text-align: center;"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+<script type="text/babel" style="font-size: xx-large;">
+    const displayTime = () => {
+
+        const currDate = new Date();
+        ReactDOM.render(<p>{currDate.toLocaleString()}</p>, document.getElementById('comp1'));
+
+    }
+    setInterval(displayTime, 1000)
+    
+    function initMap() {
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 13,
+    center: { lat: 34.04924594193164, lng: -118.24104309082031 },
+  });
+  const trafficLayer = new google.maps.TrafficLayer();
+
+  trafficLayer.setMap(map);
+}
+
+window.initMap = initMap;
+    </script>
+
+</body>
+
+<html lang ="en" style="text-shadow: 0cm;"><head><link href="styles.css" rel="stylesheet">
+    <title>Web Search Engine</title>
+    
+</head>
+<h3 style="font-family: Arial, Helvetica, sans-serif;color: rgb(70, 112, 112);align-items: center;text-align: center;font-size: xx-large;"> Web Search Engine</h3>
+<style corners1 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+#rcorners3 {
+  border-radius: 25px;
+  background: url(paper.gif);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}></style>
+<body style = align-self:center;text-align:center;font-size:xx-large>
+    <form style="background-color: (grey);text-align: center;border-top-right-radius:0pc;" action="https://www.Google.com/search">
+        <span style="background-color: honeydew;">
+        <input type="search" autocomplete="on" max-length="250"data-customhandled="true" aria-label="Enter your search" id ="q" name="q" placeholder="Go Search!" data-t="{&quot;n&quot;:&quot;searchicon&quot;,&quot;t&quot;:9,&quot;a&quot;:&quot;submit&quote;,&quot;b&quot;;50,&quot;c.t&quot}" style="align-items: center;font-size: xx-large;color: beige; 
+            background-image: url('searchicon.png');
+            background-color:rgb(122, 151, 151);
+            
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding-left: 40px;
+            border-radius: 0cqmax;
+            border-top-right-radius: 0cqmax;border-radius: 2px;
+          ">
+        <input  type="submit" value="Go Search!" style="font-size: xx-large;background: darkslategrey;color:whitesmoke;border-radius: 40px;">
+</div></div></span>
+        </span>
+    </form>
+    
+    <div>
+        <a class="weatherwidget-io" href="https://forecast7.com/en/39d95n75d17/philadelphia/?unit=us" data-label_1="PHILADELPHIA" data-label_2="WEATHER" data-theme="pure" >PHILADELPHIA WEATHER</a>
+        <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        </script> 
+        
+
+          
+        <div>
+          <iframe width="800" height="400" frameborder="0" src="https://www.bing.com/maps/embed?h=400&w=800&cp=39.931327352382354~-75.19798278808594&lvl=11&typ=d&sty=h&src=SHELL&FORM=MBEDV8" scrolling="no">
+          </iframe>
+          <div style="white-space: nowrap; text-align: center; width: 800px; padding: 6px 0;">
+            <form action="https://www.bing.com/maps/directions">
+            <input id="maps_sb" type="navigate" action="https://www.bing.com/maps/directions?cp=39.931327352382354~-75.19798278808594&amp;sty=h&amp;lvl=11&amp;rtp=~pos.39.931327352382354_-75.19798278808594____&amp;FORM=MBEDLD"" title="Add a search" length="20" maxlength="1000" autocomplete="off" aria-autocomplete="both" aria-controls="sb_as_container" aria-owns="sb_as_container" data-tag="TaskBar.SearchBox" placeholder="" autocorrect="off" autocapitalize="off" style="background-color: transparent;border-radius: 20px;background-image: url('searchicon.png');">
+            <input type="submit" name="q" action="https://www.bing.com/m/maps/directions?q=Navigate&cp=39.938172~-75.044174&lvl=11.0"" value="Navigate">
+             
+             <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=39.931327352382354~-75.19798278808594&amp;sty=h&amp;lvl=11&amp;rtp=~pos.39.931327352382354_-75.19798278808594____&amp;FORM=MBEDLD"></a>
+             <a href="/maps/traffic?cp=39.938172~-75.214462&lvl=11.0" class="trafficIcon selected" data-instrumentation="{&quot;logData&quot;:{&quot;feature&quot;:&quot;TB&quot;,&quot;action&quot;:&quot;C&quot;,&quot;data&quot;:{&quot;FN&quot;:&quot;T&quot;}},&quot;impressionGuid&quot;:&quot;8F3BF3F581F8482DA21C1CA5B7F4FB69&quot;}" title="Traffic" role="button" data-tag="TaskBar.TrafficButton"><span></span>
+            </form>
+            </div>
+     
+           
+           <html>
+  <head>
+    <title>Geolocation</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script type="module" src="./index.js"></script>
+    <rssapp-imageboard id="tmbOSe54pm1LnUqG"></rssapp-imageboard><script src="https://widget.rss.app/v1/imageboard.js" rext ="text/javascript"async></script>
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <!-- 
+      The `defer` attribute causes the callback to execute after the full HTML
+      document has been parsed. For non-blocking uses, avoiding race conditions,
+      and consistent behavior across browsers, consider loading using Promises
+      with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+      -->
+    <script 
+
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      
+    ></script>
+    
+  </body>
+</html>
+       </div>
+</div>
+
+</body>
+    </html>
